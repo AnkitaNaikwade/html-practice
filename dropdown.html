@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            background-color: aqua;
+            border: 1px solid red;
+        }
+
+        .Dropdown {
+            background-color: chartreuse;
+            display: inline-block;
+        }
+
+        .hovereffect {
+            display: none;
+            border: 2px solid palevioletred;
+            background-color: coral;
+        }
+
+
+
+
+        .Dropdown:hover .hovereffect {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div Class="Main">
+        <div Class="Dropdown">
+            <span>Services</span>
+            <div class="hovereffect">
+                <p>After hover</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
